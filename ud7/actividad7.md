@@ -73,6 +73,29 @@ Ahora realizaremos una pequeña modificacion en algun documento para actualizarl
 
 Haciendo git status vemos como se estan cambiando todo lo que estoy poniendo ahora mismo. Asi que me tocara hacer un commit ahora y luego hacer otro.
 
+![](./img7/Captura%20de%20pantalla%20-2026-10-21%2020-05-25.png)
+
+Hacemos el commit de todo lo que tenemos hasta ahora y ahora haremos el push
+
+![](./img7/Captura%20de%20pantalla%20-2026-10-21%2020-07-07.png)
+
+Una vez hecho el push vamos a comprobar que se haya actualizado
+
+![](./img7/Captura%20de%20pantalla%20-2026-10-21%2020-09-04.png)
+
+Y ya lo tenemos
+
+## 6. Comprobación final
+
+![](./img7/Captura%20de%20pantalla%20-2026-10-21%2020-10-05.png)
+
+Vemos como la rama principal esta actualizada 
+
+![](./img7/Captura%20de%20pantalla%20-2026-10-21%2020-10-59.png)
+
+Sabemos que esta actualizada por que la actividad 7 todavia esta incompleta y esta por donde la habiamos dejado
+
+Todo lo demas ya lo hemos comprobado antes.
 
 
 
