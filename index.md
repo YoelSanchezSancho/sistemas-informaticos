@@ -7,10 +7,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis consequ
 
 ## Índice
 
-- [UD1. Documentación técnica](./ud1/index.md)  
-- [UD2. Explotación de sistemas microinformáticos](./ud2/index.md)  
-- [UD3. Instalación de sistemas operativos](./ud3/index.md)  
-- [UD4. Gestión de la información](./ud4/index.md) 
-- [UD5. Configuración de sistemas operativos](./ud5/index.md)  
-- [UD6. Conexión de sistemas en red](./ud6/index.md)  
-- [UD7. Gestión de recursos en una red](./ud7/index.md)
+- [UD1. Documentación técnica](./ud1/actividad1.md)  
+- [UD2. Explotación de sistemas microinformáticos](./ud2/actividad2/actividad2.md)  
+- [UD3. Instalación de sistemas operativos](./ud3/actividad3/actividad3.md)  
+- [UD4. Gestión de la información](./ud4/actividad4/actividad4.md) 
+- [UD5. Configuración de sistemas operativos](./ud5/actividad5/a5.md)  
+- [UD6. Conexión de sistemas en red](./ud6/actividad6/actividad6.md)  
+- [UD7. Gestión de recursos en una red](./ud7/actividad7.md)
+
+
+
+
+- [Enlace al repositorio clonado](../../../yoesansan-sistemas/docs/ud1-technical-documentation/index.md)

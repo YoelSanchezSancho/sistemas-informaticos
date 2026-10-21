@@ -53,3 +53,5 @@ Versión que se ejecuta directamente desde el navegador web sin necesidad de ins
 
 
 #### Enlace a la [fuente de informacion](https://code.visualstudio.com/docs)
+
+### [Enlace a la pagina principal](../../index.md)

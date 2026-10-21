@@ -45,3 +45,6 @@ Para moverse entre directorios utilizaremos tanto el comando "cd" que ya hemos v
 ## 5. 
 Por ultimo desde el directorio "yoesansan-sistemas", el primero que hemos creado, hacemos un "tree" para que nos salga la misma estructura que en ejercicio.
 ![Captura](./imagenes/Captura%20de%20pantalla%20-2026-09-24%2019-59-58.png)
+
+
+### [Enlace a la pagina principal](../../index.md)

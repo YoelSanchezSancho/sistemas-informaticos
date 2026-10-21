@@ -21,3 +21,5 @@ Obliga a que cualquier trabajo derivado o modificación que se distribuya manten
 #### Clasificacion del tipo de licencia
 - Software Propietario / SaaS (Software as a Service)  
 Plataforma comercial y privada. Su código no es abierto, aunque aloja proyectos de cualquier tipo de licencia.
+
+### [Enlace a la pagina principal](../index.md)
