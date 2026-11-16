@@ -1,0 +1,63 @@
+
+suma:     formato del fichero elf64-x86-64
+
+
+Desensamblado de la sección .init:
+
+Desensamblado de la sección .plt:
+
+Desensamblado de la sección .plt.got:
+
+Desensamblado de la sección .plt.sec:
+
+Desensamblado de la sección .text:
+
+0000000000001189 <main>:
+    1189:	f3 0f 1e fa          	endbr64
+    118d:	55                   	push   rbp
+    118e:	48 89 e5             	mov    rbp,rsp
+    1191:	48 83 ec 20          	sub    rsp,0x20
+    1195:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
+    119c:	00 00 
+    119e:	48 89 45 f8          	mov    QWORD PTR [rbp-0x8],rax
+    11a2:	31 c0                	xor    eax,eax
+    11a4:	48 8d 05 59 0e 00 00 	lea    rax,[rip+0xe59]        # 2004 <_IO_stdin_used+0x4>
+    11ab:	48 89 c7             	mov    rdi,rax
+    11ae:	b8 00 00 00 00       	mov    eax,0x0
+    11b3:	e8 c8 fe ff ff       	call   1080 <printf@plt>
+    11b8:	48 8d 45 ec          	lea    rax,[rbp-0x14]
+    11bc:	48 89 c6             	mov    rsi,rax
+    11bf:	48 8d 05 5b 0e 00 00 	lea    rax,[rip+0xe5b]        # 2021 <_IO_stdin_used+0x21>
+    11c6:	48 89 c7             	mov    rdi,rax
+    11c9:	b8 00 00 00 00       	mov    eax,0x0
+    11ce:	e8 bd fe ff ff       	call   1090 <__isoc99_scanf@plt>
+    11d3:	48 8d 05 4a 0e 00 00 	lea    rax,[rip+0xe4a]        # 2024 <_IO_stdin_used+0x24>
+    11da:	48 89 c7             	mov    rdi,rax
+    11dd:	b8 00 00 00 00       	mov    eax,0x0
+    11e2:	e8 99 fe ff ff       	call   1080 <printf@plt>
+    11e7:	48 8d 45 f0          	lea    rax,[rbp-0x10]
+    11eb:	48 89 c6             	mov    rsi,rax
+    11ee:	48 8d 05 2c 0e 00 00 	lea    rax,[rip+0xe2c]        # 2021 <_IO_stdin_used+0x21>
+    11f5:	48 89 c7             	mov    rdi,rax
+    11f8:	b8 00 00 00 00       	mov    eax,0x0
+    11fd:	e8 8e fe ff ff       	call   1090 <__isoc99_scanf@plt>
+    1202:	8b 55 ec             	mov    edx,DWORD PTR [rbp-0x14]
+    1205:	8b 45 f0             	mov    eax,DWORD PTR [rbp-0x10]
+    1208:	01 d0                	add    eax,edx
+    120a:	89 45 f4             	mov    DWORD PTR [rbp-0xc],eax
+    120d:	8b 45 f4             	mov    eax,DWORD PTR [rbp-0xc]
+    1210:	89 c6                	mov    esi,eax
+    1212:	48 8d 05 29 0e 00 00 	lea    rax,[rip+0xe29]        # 2042 <_IO_stdin_used+0x42>
+    1219:	48 89 c7             	mov    rdi,rax
+    121c:	b8 00 00 00 00       	mov    eax,0x0
+    1221:	e8 5a fe ff ff       	call   1080 <printf@plt>
+    1226:	b8 00 00 00 00       	mov    eax,0x0
+    122b:	48 8b 55 f8          	mov    rdx,QWORD PTR [rbp-0x8]
+    122f:	64 48 2b 14 25 28 00 	sub    rdx,QWORD PTR fs:0x28
+    1236:	00 00 
+    1238:	74 05                	je     123f <main+0xb6>
+    123a:	e8 31 fe ff ff       	call   1070 <__stack_chk_fail@plt>
+    123f:	c9                   	leave
+    1240:	c3                   	ret
+
+Desensamblado de la sección .fini:
